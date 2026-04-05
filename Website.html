@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Registration Form</title>
+
+<style>
+    body {
+        background-image: url("https://static.toiimg.com/thumb/msid-91510461,width-1070,height-580,imgsize-142212,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+    }
+
+    .mainbox {
+        width: 60%;
+        margin: 50px auto;
+        background-color:black;
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .head {
+        background-color: green;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .head img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        float: left;
+    }
+
+    table {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    input, select {
+        padding: 5px;
+        width: 150px;
+    }
+
+    input[type="submit"], input[type="reset"] {
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="mainbox">
+
+    <div class="head">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAUBILo7PhPKcrJaLDI-t-zsJbK6IreXs0A&s">
+        <h2>IPL REGISTRATION FORM</h2>
+        <div style="clear: both;"></div>
+    </div>
+
+    <form>
+        <table>
+            <tr>
+                <td>NAME<br><input type="text"></td>
+                <td>AGE<br><input type="number"></td>
+                <td>PHONE NO<br><input type="tel"></td>
+            </tr>
+
+            <tr>
+                <td>TEAM<br><input type="text"></td>
+                <td>TICKETS<br><input type="number"></td>
+                <td>CITY<br><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>EMAIL<br><input type="email"></td>
+
+                <td>ROLE<br>
+                    <select>
+                        <option>BATSMAN</option>
+                        <option>BOWLER</option>
+                        <option>ALL-ROUNDER</option>
+                    </select>
+                </td>
+
+                <td>EXPERIENCE<br>
+                    <select>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Professional</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>
